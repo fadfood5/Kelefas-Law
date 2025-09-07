@@ -22,9 +22,50 @@ p {
   font-size: 1.5rem;
 }
 
-.text-group {
-  padding: 100px 0;
+/* Custom Accordion Theme */
+.accordion {
+  --bs-accordion-bg: rgb(85, 85, 85); /* Accordion body and background */
+  --bs-accordion-border-color: #333;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-border-width: 0;
 }
+
+.accordion-item {
+  border-radius: 0 !important;
+  background-color: var(--bs-accordion-bg);
+  border: 1px solid var(--bs-accordion-border-color);
+}
+
+.accordion-button {
+  color: #fff; /* Text color of the button */
+  background-color: var(--bs-accordion-bg); /* Background of the button */
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff; /* Text color when the button is open */
+  background-color: #404040; /* Slightly darker background when open */
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+/* Custom Buttons */
+
+.btn-primary {
+  background-color: #d8d8d8;
+  color: black;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b3b3b3;
+  color: black;
+}
+
+/* Custom IDs */
 
 #Backdrop {
   background-image: linear-gradient(
@@ -48,17 +89,20 @@ p {
   width: 100%;
 }
 
+#PracticeAreas {
+  background-color: rgb(110, 110, 110);
+}
+
+#PracticeAreas p {
+  color: white;
+}
+
+/* Custom Classes */
+
+.text-group {
+  padding: 100px 0;
+}
+
 footer p {
   font-size: 1rem;
-}
-
-.btn-primary {
-  background-color: #d8d8d8;
-  color: black;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #b3b3b3;
-  color: black;
 }
