@@ -32,7 +32,7 @@ p {
       rgba(0, 0, 0, 0.59) 0%,
       rgba(0, 0, 0, 0.59) 100%
     ),
-    url("img/home-backdrop.webp");
+    url("../img/home-backdrop.webp");
   background-size: cover;
 }
 
