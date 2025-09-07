@@ -1,0 +1,60 @@
+body {
+  font-family: "Archivo", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  background-color: #161616;
+}
+
+section {
+  padding: 10px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  color: rgb(164, 164, 164);
+  font-size: 1.5rem;
+}
+
+.text-group {
+  padding: 100px 0;
+}
+
+#Backdrop {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.59) 0%,
+      rgba(0, 0, 0, 0.59) 100%
+    ),
+    url("img/home-backdrop.webp");
+  background-size: cover;
+}
+
+#ReadySection {
+  background-color: #161616;
+}
+
+#ReadySection .text-group {
+  padding: 50px 0;
+}
+
+#ReadySection img {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #d8d8d8;
+  color: black;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b3b3b3;
+  color: black;
+}
