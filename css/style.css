@@ -22,6 +22,11 @@ p {
   font-size: 1.5rem;
 }
 
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
 /* Custom Accordion Theme */
 .accordion {
   --bs-accordion-bg: rgb(85, 85, 85); /* Accordion body and background */
@@ -105,4 +110,17 @@ p {
 
 footer p {
   font-size: 1rem;
+}
+
+#AboutKelefas {
+  margin-top: 100px;
+}
+
+label.error {
+  color: red;
+  font-size: 1.2rem;
+}
+
+#Practice {
+  margin-top: 100px;
 }
